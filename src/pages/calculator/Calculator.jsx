@@ -96,7 +96,7 @@ function Calculator() {
 
     return (
         <div 
-            className="container-fluid app-wrapper d-flex flex-column justify-content-center align-items-center"
+            className="app-wrapper container-fluid d-flex flex-column justify-content-center align-items-center"
             onKeyDown={(e) => handleKeyDown(e.key)}
             tabIndex={-1}  /* It is mandatory to make onKeyUp work on a div */
             ref= {documentRef}
@@ -148,7 +148,7 @@ function Calculator() {
                     <button onClick= {(e) => handleKeyDown(e.target.textContent)} className="rounded-circle numbers" id="0">0</button>
                     <button onClick= {(e) => handleKeyDown(e.target.textContent)} className="rounded-circle bg-dark text-white" id="point">.</button>
                     <button onClick= {computeResult} className="rounded-circle equal-operator bg-dark text-white" id="equal-operator">=</button>
-                    <button onClick= {(e) => handleKeyDown(e.target.textContent)} className="rounded-circle operators" id="add-operator"> + </button>
+                    <button onClick= {(e) => handleKeyDown(e.target.textContent)} className="rounded-circle operators" id="add-operator">+</button>
                 </div>
 
             </div>

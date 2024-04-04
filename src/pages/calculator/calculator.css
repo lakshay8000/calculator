@@ -4,16 +4,12 @@
     --blue: #4285f4;
 }
 
-/* html {
+* {
     box-sizing: border-box;
 }
 
-*, *::after, *::before {
-    box-sizing: inherit;
-} */
-
 .app-wrapper {
-    padding-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 .app-wrapper:focus {
@@ -71,4 +67,10 @@
 .calculator-wrapper button {
     width: 3.5rem;
     height: 3.5rem;
+}
+
+@media (max-width : 576px) {
+    .calculator-wrapper {
+        width: 99%;
+    }
 }
