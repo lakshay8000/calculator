@@ -30,12 +30,10 @@ This is a sleek and modern calculator app built using React and Bootstrap, with 
 2. Install dependencies using `npm install`.
 3. Start the development server locally using `npm run dev` (built with Vite).
 
-This project was created as a personal project for inclusion in my portfolio. Its purpose is to showcase my skills in building React applications. If you have any questions or feedback, feel free to reach out.
-
 
 ### Contributing:
 
 Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or features you'd like to add.
 
 
-This project was created as a personal project for inclusion in my portfolio. Its purpose is to showcase my skills in building React applications. If you have any questions or feedback, feel free to reach out.
+This project is created as a personal project for inclusion in my portfolio. Its purpose is to showcase my skills in building React applications. If you have any questions or feedback, feel free to reach out.
