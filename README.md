@@ -37,3 +37,8 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 
 
 This project is created as a personal project for inclusion in my portfolio. Its purpose is to showcase my skills in building React applications. If you have any questions or feedback, feel free to reach out.
+
+
+## License:
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
